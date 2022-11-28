@@ -1,0 +1,7 @@
+.menu-tabContent {
+    width: auto;
+    max-height: 155vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 10px;
+}

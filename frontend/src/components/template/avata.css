@@ -1,0 +1,30 @@
+aside.avata {
+    /* background-color: #223243; */
+    background-color: var(--bg-dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+aside.avata img {
+    border-radius: 50%;
+    padding: 0px 15px;
+    /* display: block;  /* Centraliza a imagem do avatar*/ 
+    margin: auto;
+    width: 50%;
+    -webkit-filter: drop-shadow(2px 3px 6px #121212);
+    filter: drop-shadow(2px 3px 6px #121212);
+    object-fit: cover;
+}
+
+.user-datails {
+    color: #fff;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+@media (max-width: 700px) {
+    aside.avata img{
+        width: 100px;
+    }
+}

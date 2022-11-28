@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+/* Elementos bases */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+
+}
+
+:root {
+  font-family: Noto Sans;
+  font-size: 100%;
+
+  --color-background: #e0e0e0;
+  --color-background-box: #9c9ca1;
+  --color-title-nav: #E53935;
+  --color-box-shadow: #5f5858;
+
+}
+
+html,
+body,
+#root {
+  align-items: center;
+  justify-content: center;
+
+  background: var(--color-background);
+  border-radius: 10px;
+  height: 100vh;
+
+}
+
+.MuiButton-textPrimary:hover {
+  background-color: #05ed14a6 !important;
+}
+
+.MuiButton-textSecondary:hover {
+  background-color: #e810109e !important;
+}
+
+.MuiButton-containedPrimary:hover {
+  background-color: #e53935cc !important;
+}
+
+.test {
+  margin-top: 4rem;
+}
+.MuiButton-containedPrimary:hover {
+  background-color: #05ed14a6 !important;
+}
+
+.testee {
+  padding: .5rem;
+  resize: none
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
